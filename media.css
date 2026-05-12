@@ -1,0 +1,224 @@
+/* =========================
+   EXTRA LARGE SCREENS (1400px+)
+   ========================= */
+@media screen and (min-width: 1400px) {
+    .container1,
+    .container2,
+    .container3,
+    .container4,
+    .container5 {
+        width: 60%;
+    }
+
+    .navbarcontainer {
+        width: 60%;
+    }
+}
+
+
+/*  LARGE LAPTOPS (1200px - 1399px) */
+@media screen and (max-width: 1399px) {
+    .container1,
+    .container2,
+    .container3,
+    .container4,
+    .container5 {
+        width: 70%;
+    }
+
+    .navbarcontainer {
+        width: 70%;
+    }
+}
+
+
+/* LAPTOP (992px - 1199px) */
+@media screen and (max-width: 1199px) {
+
+    .container1,
+    .container2,
+    .container3,
+    .container4,
+    .container5 {
+        width: 80%;
+    }
+
+    .navbarcontainer {
+        width: 85%;
+    }
+
+    .links ul {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .left-right1,
+    .leftright2,
+    .left-and-right {
+        flex-wrap: wrap;
+    }
+
+    .left,
+    .right,
+    .left-side,
+    .right-side,
+    .left-side1,
+    .right-side1 {
+        width: 100%;
+    }
+
+    .cardss {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .card-1,
+    .card-2,
+    .card-3 {
+        width: 100%;
+    }
+}
+
+
+/*    TABLET (768px - 991px) */
+@media screen and (max-width: 991px) {
+
+    .navbarcontainer {
+        flex-direction: column;
+        height: auto;
+        gap: 10px;
+        width: 90%;
+    }
+
+    .links ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .subscribe button {
+        width: 100%;
+    }
+
+    .p1,
+    .p2,
+    .p3 {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .bt12 {
+        flex-direction: column;
+    }
+
+    .bt1,
+    .bt2 {
+        width: 100%;
+    }
+
+    .second2,
+    .second2-1,
+    .second2-2 {
+        flex-direction: column;
+    }
+
+    .Second2-left,
+    .Second2-right {
+        width: 100%;
+    }
+
+    .right-side {
+        position: static;
+    }
+
+    .footer-con {
+        flex-wrap: wrap;
+    }
+
+    .mix-footer,
+    .fooer-s,
+    .footer-third {
+        width: 100%;
+    }
+}
+
+
+/*   MOBILE LARGE (576px - 767px)  */
+@media screen and (max-width: 767px) {
+
+    .navbarcontainer {
+        width: 95%;
+    }
+
+    .p1,
+    .p2,
+    .p3 {
+        font-size: 40px;
+    }
+
+    .long {
+        font-size: 18px;
+    }
+
+    .heroimg img {
+        width: 100%;
+        height: auto;
+    }
+
+    .button1 {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .card-1,
+    .card-2,
+    .card-3 {
+        width: 100%;
+    }
+}
+
+
+/*    SMALL MOBILE (≤575px)  */
+@media screen and (max-width: 575px) {
+
+    .Nav-content {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .p1,
+    .p2,
+    .p3 {
+        font-size: 32px;
+    }
+
+    .First1 p {
+        font-size: 30px;
+    }
+
+    .p7 {
+        font-size: 35px;
+    }
+
+    .p8 {
+        font-size: 16px;
+    }
+
+    .bt1 button,
+    .bt2 button {
+        font-size: 16px;
+        height: 60px;
+    }
+
+    .third-1 {
+        font-size: 16px;
+        padding: 15px 25px;
+    }
+
+    .footer-third input,
+    .footer-third button {
+        font-size: 14px;
+    }
+}
